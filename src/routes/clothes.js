@@ -6,10 +6,10 @@ const clothes = new Clothes();
 const router = express.Router();
 
 router.get('/', getClothes);
-router.get('/:id', validator, getClothesById);
+router.get('/:id', getClothesById);
 router.post('/', createClothes);
-router.put('/:id', validator, updateClothes);
-router.delete('/:id', validator, deleteClothes);
+router.put('/:id',  updateClothes);
+router.delete('/:id',  deleteClothes);
 
 function getClothes(req, res) {
   const resObj = clothes.read();
