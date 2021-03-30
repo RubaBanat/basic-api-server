@@ -21,6 +21,8 @@
 
 ---
 
+## Tests that assert your features:
+
 - [Github-Acton](https://github.com/RubaBanat/basic-api-server/actions)
 - Coverage 
 
@@ -29,7 +31,6 @@
 
 ---
 
-## Tests that assert your features:
 
 - [Pull-Request](https://github.com/RubaBanat/basic-api-server/pull/1)
 - [Heroku-deployment](https://ruba-server.herokuapp.com/)
