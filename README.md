@@ -1,6 +1,6 @@
 # basic-api-server
 
-## Branch : [Dev]()
+## Branch : [Dev](https://github.com/RubaBanat/basic-api-server/tree/dev)
 
 ---
 
@@ -14,7 +14,6 @@
 
 ---
 
-## Tests that assert your features:
 
 ## UML 
 
@@ -22,7 +21,9 @@
 
 ---
 
-- [Github-Acton]()
+## Tests that assert your features:
+
+- [Github-Acton](https://github.com/RubaBanat/basic-api-server/actions)
 - Coverage 
 
 ![coverage](imgs/covarege.png)
@@ -30,8 +31,9 @@
 
 ---
 
-- [Pull-Request]()
-- [Heroku-deployment]()
+
+- [Pull-Request](https://github.com/RubaBanat/basic-api-server/pull/1)
+- [Heroku-deployment](https://ruba-server.herokuapp.com/)
 
 ---
 
