@@ -6,10 +6,10 @@ const food = new Food();
 const router = express.Router();
 
 router.get('/', getFood);
-router.get('/:id', getFoodById);
+router.get('/:id', validator,getFoodById);
 router.post('/', createFood);
-router.put('/:id', updateFood);
-router.delete('/:id',  deleteFood);
+router.put('/:id',validator, updateFood);
+router.delete('/:id', validator, deleteFood);
 
 function getFood(req, res) {
   const resObj = food.read();
