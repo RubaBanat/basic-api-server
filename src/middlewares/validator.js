@@ -1,15 +1,11 @@
 module.exports = (req,res,next) =>{
-    if (!req.query.name){
+    if (!req.params.id){
         next();
+        
     } else {
-        next('INVALID CLOTHES ID');
+        res.status(500);
+        res.send({ error : 'Error'});
+        next('INVALID ID');
     }
 }
 
-module.exports = (req,res,next) =>{
-    if (!req.query.name){
-        next();
-    } else {
-        next('INVALID FOOD ID');
-    }
-}
