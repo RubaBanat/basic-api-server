@@ -14,7 +14,6 @@
 
 ---
 
-## Tests that assert your features:
 
 ## UML 
 
@@ -29,6 +28,8 @@
 
 
 ---
+
+## Tests that assert your features:
 
 - [Pull-Request](https://github.com/RubaBanat/basic-api-server/pull/1)
 - [Heroku-deployment](https://ruba-server.herokuapp.com/)
